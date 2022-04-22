@@ -121,3 +121,84 @@ button:hover {
 
     cursor: pointer;
 }
+
+section.two {
+    padding: 30px 30px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.imgs {
+    color: white;  
+
+    display: flex;
+    gap: 50px;
+}
+
+.left {
+    background-image: url("/img//cinqueterre.jpg");
+
+    width: 1100px;
+    height: 520px;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pad {
+    padding: 15px;
+
+    cursor: pointer;
+}
+
+.pad:hover {
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.img1 {
+    background-image: url("/img/newyork.jpg");
+
+    width: 300px;
+    height: 250px;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.img2 {
+    background-image: url("/img/sanfran.jpg");
+    
+    width: 300px;
+    height: 250px;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.img3 {
+    background-image: url("/img/pisa.jpg");
+    
+    width: 300px;
+    height: 250px;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.img4 {
+    background-image: url("/img/paris.jpg");
+    
+    width: 300px;
+    height: 250px;
+
+    display: flex;
+    align-items: flex-end;
+}
